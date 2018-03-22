@@ -37,15 +37,25 @@ Installation
 
 Install django-sequences::
 
+    cat requirements.txt
+    --trusted-host=pypi.luojilab.com
+    --index-url http://pypi.luojilab.com/rock2018/pypi
+
+    django-sequences=0.1.5    # 请安装最新版本
+    pip install -r requirements.txt
     $ pip install django-sequences
 
 Add it to the list of applications in your project's settings::
 
-    INSTALLED_APPS += ['sequences.apps.SequencesConfig']
+    INSTALLED_APPS = [
+    '...',
+    'si',
+]
+
 
 Run migrations::
 
-    $ django-admin migrate
+    $ ./manage.py migrate
 
 API
 ===
