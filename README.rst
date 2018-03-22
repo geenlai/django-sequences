@@ -49,7 +49,7 @@ Add it to the list of applications in your project's settings::
 
     INSTALLED_APPS = [
     '...',
-    'si',
+    'sequences',
 ]
 
 
