@@ -13,12 +13,12 @@ with codecs.open(os.path.join(root_dir, 'README.rst'), encoding='utf-8') as f:
 
 setuptools.setup(
     name='django-sequences',
-    version='2.1',
+    version='0.1.5',
     description=description,
     long_description=long_description,
-    url='https://github.com/aaugustin/django-sequences',
-    author='Aymeric Augustin',
-    author_email='aymeric.augustin@m4x.org',
+    url='http://www.luojilab.com',
+    author='geenlai',
+    author_email='geenlai@luojilab.com',
     license='BSD',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -42,9 +42,4 @@ setuptools.setup(
         'sequences',
         'sequences.migrations',
     ],
-    package_data={
-        'sequences': [
-            'locale/*/LC_MESSAGES/*',
-        ],
-    },
 )
